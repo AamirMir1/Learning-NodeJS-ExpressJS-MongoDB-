@@ -1,0 +1,4 @@
+db.collectionName.deleteMany(filter)
+
+db.collectionName.deleteMany({name: "Aamir"})      // This will delete all match documents
+db.collectionName.deleteMany({})      // This will delete all the documents from collection

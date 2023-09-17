@@ -1,0 +1,15 @@
+{
+  "name": "35--complete-dynamic-website-using-express",
+  "version": "1.0.0",
+  "description": "Complete dynamic website using express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aamir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0"
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Our Registration Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    {{>navbar}}
+        <div class="regisBackground">
+            <h1>Registration Form</h1>
+            <form action="/registration" method="post">
+                <div class="container">
+                    <div class="left">
+                        <input type="text" placeholder="First Name" name="firstname" id="firstname">
+                        <input type="email" placeholder="Email" name="email" id="email">
+                        <input type="number" placeholder="Phone Number" name="phonenumber" id="phonenumber">
+                        <input type="password" placeholder="Password" name="password" id="password">
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Last Name" name="lastname" id="lastname">
+                        <input type="text" placeholder="Gender" name="gender" id="">
+                        <input type="number" placeholder="Age" name="age" id="age">
+                        <input type="password" placeholder="Confirm Password" name="confirmpassword" id="confirmpassword">
+                    </div>
+                </div>
+                <input type="submit" class="submitNow" value="Register">
+            </form>
+        </div>
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+[
+    {
+        "name": "Aamir",
+        "Hobby": "Dancing, Coding And Gaming",
+        "email": "amir3@gmail.com",
+        "phone": "035828383",
+        "image": "images/1.jpg",
+        "address": "Gilgit, Oshikhandass"
+    },
+    {
+        "name": "Rahul",
+        "Hobby": "Cooking",
+        "email": "rahul323@gmail.com",
+        "phone": "03583759282",
+        "image": "images/2.jpg",
+        "address": "Karachi"
+    },{
+        "name": "Mrs Devil",
+        "Hobby": "Drawing",
+        "email": "Devil3875@gmail.com",
+        "phone": "03582659284",
+        "image": "images/3.jpg",
+        "address": "England"
+    },{
+        "name": "Shahzaib",
+        "Hobby": "PUBG Playing",
+        "email": "Shahzaib375@gmail.com",
+        "phone": "03582759283",
+        "image": "images/4.jpg",
+        "address": "Gilgit, Danyore"
+    },{
+        "name": "Ayan",
+        "Hobby": "Playing Games",
+        "email": "Ayan3875@gmail.com",
+        "phone": "03572859261",
+        "image": "images/5.jpg",
+        "address": "Gilgit, Danyore"
+    },{
+        "name": "Ayesha",
+        "Hobby": "Playing",
+        "email": "ayesha372@gmail.com",
+        "phone": "03592837592",
+        "image": "images/6.jpg",
+        "address": "Hunza"
+    },{
+        "name": "Aleena",
+        "Hobby": "Wrestling",
+        "email": "aleena3872@gmail.com",
+        "phone": "03582639528",
+        "image": "images/7.jpg",
+        "address": "Islamabad"
+    },{
+        "name": "Aliyan",
+        "Hobby": "Programming",
+        "email": "aliyanOfficial@gmail.com",
+        "phone": "05728371938",
+        "image": "images/8.jpg",
+        "address": "Jalalabad"
+    },{
+        "name": "Junaid",
+        "Hobby": "Photography",
+        "email": "junaidOfficial38@gmail.com",
+        "phone": "03592837592",
+        "image": "images/9.jpg",
+        "address": "Gilgit, Oshikhandass"
+    },{
+        "name": "Singh",
+        "Hobby": "Eating",
+        "email": "SinghRaj38@gmail.com",
+        "phone": "03582739562",
+        "image": "images/10.jpg",
+        "address": "India, Mumbai"
+    },{
+        "name": "Inayat",
+        "Hobby": "Teaching",
+        "email": "inayat387@gmail.com",
+        "phone": "03582739572",
+        "image": "images/11.jpg",
+        "address": "Yaseen"
+    },{
+        "name": "Sanjay",
+        "Hobby": "Fighting",
+        "email": "sanjay29@gmail.com",
+        "phone": "03582937919",
+        "image": "images/12.jpg",
+        "address": "India, New Delhi"
+    },{
+        "name": "Salman",
+        "Hobby": "Racing",
+        "email": "salman59@gmail.com",
+        "phone": "03592837291",
+        "image": "images/13.jpg",
+        "address": "Gilgit, Danyore"
+    },{
+        "name": "Ikram",
+        "Hobby": "Drinking Tea",
+        "email": "raja302@gmail.com",
+        "phone": "03592837291",
+        "image": "images/14.jpg",
+        "address": "Gilgit, Danyore"
+    },{
+        "name": "Roshan",
+        "Hobby": "Singing",
+        "email": "roshan3492@gmail.com",
+        "phone": "03591839502",
+        "image": "images/15.jpg",
+        "address": "Singal"
+    },{
+        "name": "Aisha",
+        "Hobby": "Singing and Dancing",
+        "email": "aishaRaj@gmail.com",
+        "phone": "03592839582",
+        "image": "images/16.jpg",
+        "address": "India, Mumbai"
+    },{
+        "name": "Zain Ul Abdin",
+        "Hobby": "Photography And Playing Games",
+        "email": "zainUlAbdin39@gmail.com",
+        "phone": "03592837592",
+        "image": "images/17.jpg",
+        "address": "Gilgit, Oshikhandass"
+    },{
+        "name": "Zeeshan",
+        "Hobby": "Smoking",
+        "email": "zeeshan392@gmail.com",
+        "phone": "03592837592",
+        "image": "images/18.jpg",
+        "address": "Gilgit, Danyore"
+    },{
+        "name": "Sannan",
+        "Hobby": "Playing Cricket",
+        "email": "sannan68@gmail.com",
+        "phone": "03967385938",
+        "image": "images/19.jpg",
+        "address": "Gilgit, Oshikhandass"
+    },{
+        "name": "Shah Behram",
+        "Hobby": "Singing",
+        "email": "shahBehram987@gmail.com",
+        "phone": "03578305938",
+        "image": "images/20.jpg",
+        "address": "Gilgit, Oshikhandass"
+    }
+]

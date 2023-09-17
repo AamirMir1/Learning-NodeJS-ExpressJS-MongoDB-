@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating A Calculator In JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            text-align: center;
+            background-color: gray;
+            width: 22rem;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        input {
+            font-size: 26.4px;
+            height: 40px;
+        }
+
+        button {
+            font-size: 20px;
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <input type="text" name="" id="screen">
+        <table>
+            <tr>
+                <td><button>Ce</button></td>
+                <td><button>)</button></td>
+                <td><button>C</button></td>
+                <td><button>%</button></td>
+            </tr>
+            <tr>
+                <td><button>7</button></td>
+                <td><button>8</button></td>
+                <td><button>9</button></td>
+                <td><button>x</button></td>
+            </tr>
+            <tr>
+                <td><button>4</button></td>
+                <td><button>5</button></td>
+                <td><button>6</button></td>
+                <td><button>-</button></td>
+            </tr>
+            <tr>
+                <td><button>1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td><button>/</button></td>
+            </tr>
+            <tr>
+                <td><button>0</button></td>
+                <td><button>.</button></td>
+                <td><button>+</button></td>
+                <td><button>=</button></td>
+            </tr>
+        </table>
+    </div>
+    <span id="btn">Button</span>
+    <script>
+        let screen = document.getElementById('screen')
+        let buttons = document.querySelectorAll('button')
+        let screenVal = ''
+
+        buttons.forEach((item) => {
+            item.addEventListener('click', (e) => {
+                let buttonText = e.target.innerText;
+                if (buttonText == 'x') {
+                    buttonText = "*"
+                    screenVal += buttonText;
+                    screen.value = screenVal
+                }
+                else if (buttonText == 'C') {
+                    screenVal = ""
+                    screen.value = screenVal;
+                }
+                else if (buttonText == 'Ce') {
+                    screenVal = screenVal.slice(0, -1)
+                    screen.value = screenVal;
+                }
+                else if (buttonText == "=") {
+                    screen.value = eval(screenVal)
+                    screenVal = ""
+                } else {
+                    screenVal += buttonText;
+                    screen.value = screenVal
+                }
+            })
+        })
+
+    </script>
+</body>
+
+</html>

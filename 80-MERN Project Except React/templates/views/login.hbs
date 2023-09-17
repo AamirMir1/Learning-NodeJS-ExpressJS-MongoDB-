@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>head}}
+    <title>Login Now</title>
+</head>
+<body>
+    {{>navbar}}
+    <section id="loginSection">
+        <div class="beOnTop registerContent">
+            <form action="/login" method="post" class="registerForm">
+                <input type="email" name="email" placeholder="Email" id="" class="blockIt">
+                <input type="password" name="password" placeholder="Password" id="" class="blockIt">
+                <input type="submit" value="Login" class="blockIt registerSubmit">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>head}}
+    <title>Register Now</title>
+</head>
+
+<body>
+    {{>navbar}}
+    <section class="register">
+        <div class="beOnTop registerContent">
+            <form action="/register" method="post" class="registerForm">
+                <input type="text" placeholder="First Name" name="firstname" id="" class="blockIt">
+                <input type="text" placeholder="Last Name" name="lastname" id="" class="blockIt">
+                <input type="email" name="email" placeholder="Email" id="" class="blockIt">
+                <div class="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" value="Male" name="gender" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" value="Female" name="gender" id="female">
+                </div>
+                <input type="password" name="password" placeholder="Password" id="" class="blockIt">
+                <input type="password" name="confirmpassword" placeholder="Confirm Password" id="" class="blockIt">
+                <input type="submit" value="Register" class="blockIt registerSubmit">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

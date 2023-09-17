@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>head}}
+</head>
+
+<body>
+    {{>header}}
+    <div class="aboutWeather">
+        <div class="userVal">
+            <input type="text" placeholder="Enter your city, village or country name" name="" id="userInput">
+            <div id="userBtn">Search</div>
+        </div>
+    </div>
+        <div class="yourOutput">
+            <div class="date">
+                <div class="day good">tuesday</div>
+                <div class="tDate good">13 Oct</div>
+            </div>
+            <div class="userOutput">
+                <h2 id="dOutput">Get Output Here</h2>
+                <div id="weatherImage"></div>
+            </div>
+        </div>
+    {{>footer}}
+</body>
+{{>logic}}
+
+</html>

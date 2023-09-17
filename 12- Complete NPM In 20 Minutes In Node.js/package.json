@@ -1,0 +1,16 @@
+{
+  "name": "12--complete-npm-in-20-minutes-in-node",
+  "version": "1.0.0",
+  "description": "This is our first class about npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aamir Mir",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "nodemon": "^2.0.16",
+    "validator": "^13.7.0"
+  }
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    display: flex;
+    background: rgba(0, 0, 0, 0.7) url('./assets/images/bg.jpg') no-repeat ;
+    background-blend-mode: darken;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 100px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+}
+.background2{
+    background: rgba(0, 0, 0, 0.7) url('./assets/images/bg.jpg') no-repeat center center/cover ;
+
+}
+.search{
+    width: 50%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.search input{
+    border-radius: 15px;
+    border: none;
+    width: 150px;
+    height: 20px;
+    padding: 5px 10px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid grey;
+}
+.firstSection{
+    height: 100vh;
+}
+.main-box{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.firstHalf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.secondHalf img{
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 83px;
+    margin: 0px 20px;
+}
+.text-big{
+    font-size: 35px;
+}
+.btn{
+    margin: 7px 5px 0px 5px;;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn2{
+    margin: 0px 7px;
+    padding: 5px 5px;
+}

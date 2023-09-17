@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Euphoria+Script&family=Rouge+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+    height: 100vh;
+}
+.header{
+    background-color: #00072e;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+nav{
+    transition: height 0.8s;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 140px;
+    align-items: center;
+    height: 70px;
+}
+.fa-snowflake{
+    padding: 0px 5px;
+    animation: weather 4s linear  infinite ;
+}
+@keyframes weather {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    cursor: pointer;
+}
+nav li a:hover{
+    color: #464b69;
+}
+.line{
+    width: 30px;
+    height: 3px;
+    margin: 4px 0px;
+    border-radius: 5px;
+    background-color: white;
+}
+.burger{
+    position: absolute;
+    right: 140px;
+    top: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 175px 140px;
+}
+#right{
+    width: 300px;
+    margin-left: 30px;
+    height: 300px;
+    transition: background 3s;
+    background: url("../images/home1.png") no-repeat center center/cover;
+}
+.chan{
+    margin-left: 30px;
+    width: 300px;
+    height: 30vh;
+    transition: background 3s;
+    background: url("../images/home2.jpg") no-repeat center center/cover !important;
+}
+.dmargin{
+    margin: 15px 0px;
+}
+.dline{
+    line-height: 40px;
+}
+.changeColor{
+    color: #313a6e;
+}
+#check button{
+    border: none;
+    background-color: #313a6e;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+.footer{
+    margin-top: auto;
+    text-align: center;
+    background-color: #00072E;
+    color: wheat;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    font-size: 10px;
+    align-items: center;
+}
+.extraPad{
+    padding-left: 30px;
+}
+#myPicture{
+    background: url("../images/about.png") no-repeat top left/cover !important;
+    width: 400px;
+    height: 400px;
+    padding-right: 40px;
+}
+
+.aboutWeather{
+    margin: 170px auto 0px auto;
+    background-color: #00072e;
+    width: 350px;
+    padding: 9px;
+    border-radius: 30px;
+    position: relative;
+}
+.userVal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#userInput{
+    width: 100%;
+    border: none;
+    border-bottom: .1px solid white;
+    color: white;
+    background: transparent;
+    font-size: 15px;
+}
+
+ #userInput:focus{
+    border: none;
+}
+
+#userBtn{
+    font-size: 13px;
+    background-color: blue;
+    color: white;
+    border-radius: 35px;
+    cursor: pointer;
+    padding: 14px 14px;
+    position: absolute;
+    right: 0px;
+
+}
+.date{
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    display: flex;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+::placeholder{
+    color: white;
+}
+.good{
+    margin: 0px 20px;
+}
+.userOutput h2{
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+    padding: 8px 5px;
+}
+.userOutput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.yourOutput{
+    height: 250px;
+    background-color: lightgray;
+    width: 370px;
+    border-radius: 30px;
+    margin: auto;
+}
+.fa-solid{
+    font-size: 70px;
+    text-align: center;
+    display: block;
+}
+.fa-sun{
+    color: #a3a300;
+}
+.fa-cloud{
+    color: #606060;
+}
+.fa-cloud-rain{
+    color: #606060;
+}
+
+
+@media screen and (max-width: 1100px) {
+     #right{
+         display: none;
+     }
+     .container{
+        padding: 230px 140px;
+    }
+    
+}
+@media screen and (max-width: 900px) {
+    .burger{
+        display: block;
+        right: 25px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        position: absolute;
+        left: 25px;
+        top: 25px;
+    }
+    ul{
+        transition: opacity 1.2s ease-out;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 25px;
+        padding: 10px 0px;
+        top: 50px;
+    }
+    nav li{
+        padding: 15px 0px;
+    }
+    nav li a{
+        padding: 0px 8px;
+        
+    }
+    .container{
+        padding: 230px 30px;
+    }
+}
+@media screen and (max-width: 680px) {
+    #myPicture{
+        width: 200px;
+        height: 200px;
+        background: url("../images/about.png") no-repeat top center/cover !important;
+    }
+    .changing{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    nav li a {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .changing{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .btn1{
+        padding: 0px 10px !important;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .rocking{
+        padding-left: 15px ;
+    }
+    .line{
+        width: 25px;
+    }
+    .logo{
+        font-size: 12px;
+        top: 30px;
+    }
+    nav li a{
+        font-size: 11px;
+    }
+    nav li{
+        padding: 10px 0px;
+    }
+    .yourOutput{
+        width: 90%;
+    }
+    .aboutWeather{
+        width: 85%;
+    }
+    #userInput{
+        font-size: 12px;
+    }
+    #userBtn{
+        padding: 12px 14px;
+        font-size: 10px;
+    }
+    .userOutput h2{
+        font-size: 25px;
+    }
+    .fa-solid{
+        font-size: 55px;
+    }
+    #dOutput{
+        font-size: 17px;
+    }
+    .good{
+        font-size: 77%;
+    }
+}
+

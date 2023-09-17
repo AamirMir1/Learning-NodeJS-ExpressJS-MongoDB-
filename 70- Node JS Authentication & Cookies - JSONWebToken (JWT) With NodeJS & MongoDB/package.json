@@ -1,0 +1,14 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "This class is about jsonwebtokens",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aamir Mir",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}

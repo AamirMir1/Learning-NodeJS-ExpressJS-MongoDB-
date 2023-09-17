@@ -1,0 +1,14 @@
+{
+  "name": "mngo",
+  "version": "1.0.0",
+  "description": "This class is about mongoose schema and models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aamir",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.3.4"
+  }
+}

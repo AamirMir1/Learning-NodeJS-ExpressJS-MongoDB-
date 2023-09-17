@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>head}}
+    <title>Get Notes</title>
+</head>
+
+<body>
+    {{>navbar}}
+    <div id="myNotes">
+        <div id="myNotesContent">
+            {{#each yournote}}
+
+            <div class="registerContent beOnTop registerForm extraCSS">
+                <form method="post" action="/dlt">
+                    <h2><span>{{@index}}:_</span>{{notetitle}}</h2>
+                    <p class="addMargin">{{noteData}}</p>
+                 <input type="submit" value="Delete Now">
+                </form>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    <script src="js/logic.js"></script>
+</body>
+
+</html>

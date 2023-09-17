@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Euphoria+Script&family=Rouge+Script&display=swap');
+body{
+    background-color: #6681fb;
+}
+ #quotes{
+    font-family: 'Euphoria Script', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+ }
+ .container{
+     width: 50vw;
+     background-color: white;
+     padding: 0px 10px;
+     height: 80vh;
+     border-radius: 10px;
+     margin: auto;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     position: relative;
+     margin-top: 10vh;
+     box-shadow: #6681fb 0px 0px 15px 7px;
+ }
+ button{
+     width: 100%;
+     background-color: blue;
+     position: absolute;
+     bottom: 0px;
+     border: none;
+     color: white;
+     height: 50px;
+     z-index: 1;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     cursor: pointer;
+ }
+ #author{
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    position: absolute;
+    right: 5%;
+    bottom: 15%;
+ }

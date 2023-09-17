@@ -1,0 +1,5 @@
+db.collectionName.updateOne(filter, update)
+db.collectionName.updateMany(filter, update)
+
+db.collectionName.updateOne({name: "Aamir"}, {$set: {subject: "English"})      this will update only first match document
+db.collectionName.updateMany({name: "Aliyan"}, {$set: {subject: "JavaScipt"}})     this will update all match documents

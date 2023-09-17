@@ -1,0 +1,5 @@
+const path = require("path")
+console.log(path.dirname("E:/CodeWithHarry/Node.js Course/10- PATH Module In Node.js/index.js"))
+console.log(path.extname("E:/CodeWithHarry/Node.js Course/10- PATH Module In Node.js/index.js"))
+console.log(path.basename("E:/CodeWithHarry/Node.js Course/10- PATH Module In Node.js/index.js"))
+console.log(path.parse("E:/CodeWithHarry/Node.js Course/10- PATH Module In Node.js/index.js").name)

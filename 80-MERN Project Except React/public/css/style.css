@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 4;
+
+}
+nav{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 10px 25px;
+}
+nav li a{
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+
+
+#navSearch{
+    padding: 6px 5px;
+    border-radius: 7px;
+    border: none;
+}
+.navBtn{
+    padding: 6px 10px;
+    border-radius: 7px;
+    background-color: #6c6cff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#home{
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/Home.jpg") no-repeat center center/cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    top: 0;
+}
+#home::before{
+    content: "";
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    z-index: 0;
+}
+.beOnTop{
+    position: relative;
+    z-index: 3;
+}
+#title{
+    font-size: 40px;
+    line-height: 40px;
+}
+#para{
+    line-height: 40px;
+}
+#homeBtn{
+    padding: 10px 20px;
+}
+#homeBtn a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+.register{
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/Registration.jpg") no-repeat center center/cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    top: 0;
+}
+.register::before{
+    content: "";
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    z-index: 0;
+}
+.blockIt{
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+.registerForm{
+    border: 2px solid #545454;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-top-left-radius: 40px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.gender{
+    margin: 0px 10px;
+}
+.registerSubmit{
+  background-color: #6c6cff;   
+  color: white;
+}
+#loginSection{
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/Login.jpg") no-repeat center center/cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    top: 0;
+}
+#loginSection::before{
+    content: "";
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    z-index: 0;
+}
+#logout{
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/Logout.jpg") no-repeat center center/cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    top: 0;
+}
+#logout::before{
+    content: "";
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    z-index: 0;
+}
+#logoutContent h1{
+    font-size: 50px;
+}
+#notes{
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/Notes.jpg") no-repeat center center/cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    top: 0;
+}
+#notes::before{
+    content: "";
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    z-index: 0;
+}
+#myNotes{
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/myNotes.jpg") no-repeat center center/cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    top: 0;
+    /* overflow-y: scroll; */
+
+}
+#myNotes::before{
+    content: "";
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    z-index: 0;
+    /* overflow-y: scroll; */
+
+}
+.extraCSS{
+    margin: 0px 10px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 0;
+    
+}
+#myNotesContent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 2;
+}
+.extraCSS{
+    margin: 80px 20px 0px 20px;
+    height: 260px;
+    overflow-y: scroll;
+}
+.addMargin{
+    margin: 10px 0px;
+}
+

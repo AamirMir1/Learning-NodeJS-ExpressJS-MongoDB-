@@ -1,0 +1,15 @@
+{
+  "name": "30--customerizing-the-views-directory-in-express-js",
+  "version": "1.0.0",
+  "description": "This class is about customerizing the views directory in express js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aamr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0"
+  }
+}

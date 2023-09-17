@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>head}}
+    <title>Get Your Notes</title>
+</head>
+<body>
+    {{>navbar}}
+    <section id="notes">
+        <div id="notesContent">
+            <h1 class="beOnTop" style="text-align: center;">Add A Note</h1>
+            <div class="beOnTop registerContent">
+            <form action="/addnotes" method="post" class="registerForm">
+                <input type="text" name="notetitle" placeholder="Note Title" id="" class="blockIt">
+                {{!-- <input type="text" name="noteData" placeholder="Write Note" id="noteData" class="blockIt"> --}}
+                <textarea name="noteData" id="" placeholder="Write Note" class="blockIt" cols="30" rows="10"></textarea>
+                <input type="submit" value="Add Note" class="blockIt registerSubmit">
+            </form>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
